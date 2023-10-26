@@ -31,8 +31,5 @@ public class AbstractFactoryPatternDemo {
       //call draw method of Shape Square
       shape4.draw();
       
-      Shape shape5 = shapeFactory1.getShape("Triangle");
-      shape5.draw();
-      
    }
 }
